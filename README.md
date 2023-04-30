@@ -1,32 +1,13 @@
-# template
+# ampullary-adenocarcinoma
 
 
 
-**template for pathology atlas repositories**
-
-
-
-
-> see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
+**ampullary-adenocarcinoma for pathology atlas repositories**
 
 
 
 
-> do not forget to activate github pages for the new repository
-
-
-
-
-```zsh
-
-vips dzsave HE.svs HE
-
-```
-
-
-
-
-```{r language template, echo=FALSE, include=TRUE}
+```{r language ampullary-adenocarcinoma, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
 
@@ -37,7 +18,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## TemplateTR
+## Ampulla Vater Adenokarsinomu
 
 ```
 
@@ -46,7 +27,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## TemplateEN
+## Adenocarcinoma of Ampulla of Vater
 
 ```
 
@@ -55,14 +36,14 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-**templateTR**
+**Ampulla Vater Adenokarsinomu**
 
 
-[https://images.patolojiatlasi.com/template/HE.html](https://images.patolojiatlasi.com/template/HE.html)
+[https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -71,20 +52,20 @@ asis, echo = (language == "TR")
 
 
 
-<button id="tani-case-template-btn">Tanıyı Göster</button>
-<div id="answer-template" style="display: none;">templateTR</div>
+<button id="tani-case-ampullary-adenocarcinoma-btn">Tanıyı Göster</button>
+<div id="answer-ampullary-adenocarcinoma" style="display: none;">Ampulla Vater Adenokarsinomu</div>
 
 <script>
-  const showAnswer-templateBtn = document.getElementById('tani-case-template-btn');
-  const answer-template = document.getElementById('answer-template');
+  const showAnswer-ampullary-adenocarcinomaBtn = document.getElementById('tani-case-ampullary-adenocarcinoma-btn');
+  const answer-ampullary-adenocarcinoma = document.getElementById('answer-ampullary-adenocarcinoma');
 
-  showAnswer-templateBtn.addEventListener('click', () => {
-    if (answer-template.style.display === 'none') {
-      answer-template.style.display = 'block';
-      showAnswer-templateBtn.textContent = 'Tanıyı Gizle';
+  showAnswer-ampullary-adenocarcinomaBtn.addEventListener('click', () => {
+    if (answer-ampullary-adenocarcinoma.style.display === 'none') {
+      answer-ampullary-adenocarcinoma.style.display = 'block';
+      showAnswer-ampullary-adenocarcinomaBtn.textContent = 'Tanıyı Gizle';
     } else {
-      answer-template.style.display = 'none';
-      showAnswer-templateBtn.textContent = 'Tanıyı Göster';
+      answer-ampullary-adenocarcinoma.style.display = 'none';
+      showAnswer-ampullary-adenocarcinomaBtn.textContent = 'Tanıyı Göster';
     }
   });
 </script>
@@ -101,14 +82,14 @@ asis, echo = (language == "TR")
 
 ```{asis, echo = (language == "EN")}
 
-**templateEN**
+**Adenocarcinoma of Ampulla of Vater**
 
 
-[https://images.patolojiatlasi.com/template/HE.html](https://images.patolojiatlasi.com/template/HE.html)
+[https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html](https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/ampullary-adenocarcinoma/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -116,20 +97,20 @@ See Microscopy with viewer:
 ```{comment}
 asis, echo = (language == "EN")
 
-<button id="dx-case-template-btn">Show the Diagnosis</button>
-<div id="answer-template" style="display: none;">templateEN</div>
+<button id="dx-case-ampullary-adenocarcinoma-btn">Show the Diagnosis</button>
+<div id="answer-ampullary-adenocarcinoma" style="display: none;">Adenocarcinoma of Ampulla of Vater</div>
 
 <script>
-  const showAnswer-templateBtn = document.getElementById('dx-case-template-btn');
-  const answer-template = document.getElementById('answer-template');
+  const showAnswer-ampullary-adenocarcinomaBtn = document.getElementById('dx-case-ampullary-adenocarcinoma-btn');
+  const answer-ampullary-adenocarcinoma = document.getElementById('answer-ampullary-adenocarcinoma');
 
-  showAnswer-templateBtn.addEventListener('click', () => {
-    if (answer-template.style.display === 'none') {
-      answer-template.style.display = 'block';
-      showAnswer-templateBtn.textContent = 'Hide the Diagnosis';
+  showAnswer-ampullary-adenocarcinomaBtn.addEventListener('click', () => {
+    if (answer-ampullary-adenocarcinoma.style.display === 'none') {
+      answer-ampullary-adenocarcinoma.style.display = 'block';
+      showAnswer-ampullary-adenocarcinomaBtn.textContent = 'Hide the Diagnosis';
     } else {
-      answer-template.style.display = 'none';
-      showAnswer-templateBtn.textContent = 'Show the Diagnosis';
+      answer-ampullary-adenocarcinoma.style.display = 'none';
+      showAnswer-ampullary-adenocarcinomaBtn.textContent = 'Show the Diagnosis';
     }
   });
 </script>
